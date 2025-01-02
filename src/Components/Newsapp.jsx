@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Card from './Card'
 
 const Newsapp = () => {
-    const [search, setSearch] = useState("india");
+    const [search, setSearch] = useState("job");
     const [newsData, setNewsData] = useState(null)
     const API_KEY = "e8504bbd99eb4c078dc48b10a4b65d55";
 
